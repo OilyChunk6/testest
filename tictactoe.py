@@ -32,7 +32,7 @@ def main():
     casesprisesx: list = []
     casespriseso: list = []
     print(grille)
-    while len(casesprisesx + casespriseso) < 9:
+    while len(casesprisesx + casespriseso) < 8:
         grille, casesprisesx = xmove(grille, casesprisesx, casespriseso)
         print(grille)
         for i in range(0, 7):
